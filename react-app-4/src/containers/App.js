@@ -2,6 +2,8 @@ import React from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll'
+import ErrorBoundary from '../components/ErrorBoundary';
+
 //import { render } from '@testing-library/react'; // used when we are not using a 'CLASS'
 
 //React Lifecycle Methods/Hooks are built in to React
@@ -41,7 +43,9 @@ class App extends React.Component {
                     <h1 className='f1' >RoboFriends</h1>
                     <SearchBox searchChange={this.onSearchChange} />
                     <Scroll>
-                        <CardList robots={filteredRobots} />
+                        <ErrorBoundary>
+                            <CardList robots={filteredRobots} />
+                        </ErrorBoundary>
                     </Scroll>
                 </div>
             )
