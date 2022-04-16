@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blemond/udemy-learn-react/static/css/main.aee8092f.css",
-    "main.js": "/blemond/udemy-learn-react/static/js/main.451092e6.js",
-    "static/media/SEGA.woff": "/blemond/udemy-learn-react/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/blemond/udemy-learn-react/index.html",
-    "main.aee8092f.css.map": "/blemond/udemy-learn-react/static/css/main.aee8092f.css.map",
-    "main.451092e6.js.map": "/blemond/udemy-learn-react/static/js/main.451092e6.js.map"
+    "main.css": "/udemy-learn-react/static/css/main.a3cb8e2c.css",
+    "main.js": "/udemy-learn-react/static/js/main.451092e6.js",
+    "static/media/SEGA.woff": "/udemy-learn-react/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/udemy-learn-react/index.html",
+    "main.a3cb8e2c.css.map": "/udemy-learn-react/static/css/main.a3cb8e2c.css.map",
+    "main.451092e6.js.map": "/udemy-learn-react/static/js/main.451092e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.aee8092f.css",
+    "static/css/main.a3cb8e2c.css",
     "static/js/main.451092e6.js"
   ]
 }
